@@ -3,7 +3,7 @@
  * Showcasing the core algorithmic & mathematical innovations:
  * 1. Project Milky Way: Celestial Directional Foliation
  * 2. CV-OSNS: Complex Plane Orthogonal Signal-Noise Decomposition
- * 3. Theseus' Foe: Anti-Cyclic Combat Reinforcement Learning
+ * 3. Weatherer: Anti-Cyclic Combat Reinforcement Learning
  * 4. SpiderNet: Multi-Shock 5D Topological Anomaly Radar
  */
 
@@ -196,9 +196,9 @@ function initCvOsnsLab() {
 }
 
 // ==========================================
-// 3. THESEUS' FOE: ANTI-CYCLIC COMBAT AI
+// 3. WEATHERER: ADAPTIVE COMBAT AI
 // ==========================================
-function initTheseusLab() {
+function initWeathererLab() {
     const moveButtons = document.querySelectorAll('.combat-move-btn');
     const bossActionDisplay = document.getElementById('boss-action-display');
     const aiPrediction = document.getElementById('ai-predicted-move');
@@ -415,7 +415,7 @@ function initSpiderNetLab() {
 window.addEventListener('DOMContentLoaded', () => {
     initMilkyWayLab();
     initCvOsnsLab();
-    initTheseusLab();
+    initWeathererLab();
     initSpiderNetLab();
 });
 

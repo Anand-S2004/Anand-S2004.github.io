@@ -163,7 +163,7 @@ function initEmailCopy() {
     const copyEmailBtns = document.querySelectorAll('.copy-email-btn');
     copyEmailBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            const email = btn.getAttribute('data-email') || 'anandsr@cs.unc.edu';
+            const email = btn.getAttribute('data-email') || 'anusri@cs.unc.edu';
             navigator.clipboard.writeText(email).then(() => {
                 showToast(`Copied ${email} to clipboard!`);
             });
